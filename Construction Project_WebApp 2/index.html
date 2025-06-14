@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Construction Project Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Construction Project Information</h1>
+  </header>
+
+  <main class="container">
+    <section id="projectSelector">
+      <label for="project">Select a Project:</label>
+      <select id="project">
+        <option value="">Choose a project</option>
+      </select>
+    </section>
+
+    <section id="projectInfo" class="card"></section>
+
+    <section id="mainContent">
+      <div id="leftColumn">
+        <div id="mapSection">
+          <div id="map"></div>
+        </div>
+        <div id="summaryRow">
+          <div id="weatherInfo" class="card"></div>
+          <div id="airQuality" class="card"></div>
+          <div id="recommendations" class="recommendations card"></div>
+        </div>
+      </div>
+
+      <div id="rightColumn">
+        <div id="forecastSection">
+          <div class="historyControls">
+            <input type="date" id="historyDate" />
+            <button id="loadHistory">Load Historical Data</button>
+          </div>
+          <div id="forecastInfo" class="card"></div>
+        </div>
+        <div id="historyInfo" class="card"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Construction Project Information w22061049</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASqtLx-xIWG1hvcSOSDmdgxRSAXFMWn_0&callback=initMap">
+  </script>
+</body>
+</html>

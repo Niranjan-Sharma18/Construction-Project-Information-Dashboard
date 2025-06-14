@@ -1,0 +1,57 @@
+[
+  {
+    "id":1,
+    "title":"NESST",
+    "description":"A new university building with lab spaces, meeting rooms, breakout areas, kitchen areas and WC facilities.",
+    "latitude":54.9764146761,
+    "longitude":-1.6066366876,
+    "resources":[
+      "Crane",
+      "Drill",
+      "Dumper Truck",
+      "Digger",
+      "Loader"
+    ]
+  },
+  {
+    "id":2,
+    "title":"CHASE",
+    "description":"A new university building with lab spaces, meeting rooms, breakout areas, kitchen areas and WC facilities.",
+    "latitude":54.9791915826,
+    "longitude":-1.6064863942,
+    "resources":[
+      "Crane",
+      "Drill",
+      "Dumper Truck",
+      "Digger",
+      "Loader",
+      "Dumper Truck"
+    ]
+  },
+  {
+    "id":3,
+    "title":"HMRC",
+    "description":"An office space for a public sector client to include gym space, staff rooms with kitchen areas, toilet facilities, meeting rooms and breakout areas.",
+    "latitude":54.974191798,
+    "longitude":-1.6113036886,
+    "resources":[
+      "Crane",
+      "Digger",
+      "Loader",
+      "Concrete mixer"
+    ]
+  },
+  {
+    "id":4,
+    "title":"St James Park",
+    "description":"An extension to the existing football stadium to include a clubhouse for coaching non-professional players and hosting events. To include a small field, an exhibition room, toilet facilities and a kitchen.",
+    "latitude":54.9747090018,
+    "longitude":-1.6204767255,
+    "resources":[
+      "Crane",
+      "Dumper Truck",
+      "Loader",
+      "Concrete mixer"
+    ]
+  }
+]
