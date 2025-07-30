@@ -99,3 +99,6 @@ projects.json
 ```
 
 The app dynamically reads this file to populate the UI with project-specific data and drive weather/AQI logic.
+
+<img width="2600" height="1148" alt="image" src="https://github.com/user-attachments/assets/5a6f93ff-e0ae-43df-a713-8f87fd050861" />
+
